@@ -1,0 +1,5 @@
+getDailyTransactions 
+
+getWeeklyTransactions
+
+getMonthlyTransactions

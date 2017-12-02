@@ -1,0 +1,39 @@
+{
+    "intents": [
+        {
+            "intent": "AMAZON.ResumeIntent"
+        },
+        {
+            "intent": "getDailyTransactions"
+        },
+        {
+            "intent": "getWeeklyTransactions"
+        },
+        {
+            "intent": "getMonthlyTransactions"
+        },
+        {
+            "slots": [
+                {
+                    "timeframe": "TIMEFRAME",
+                    "type": "TIMEFRAME"
+                }
+            ]
+        },
+        {
+            "intent": "AMAZON.PauseIntent"
+        },
+        {
+            "intent": "AMAZON.NextIntent"
+        },
+        {
+            "intent": AMAZON.StopIntent"
+        },
+        {
+            "intent": AMAZON.CancelIntent"
+        },
+        {
+            "intent": "AMAZON.HelpIntent"
+        }
+    ]
+}
