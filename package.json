@@ -1,0 +1,33 @@
+{
+  "name": "small-business-app",
+  "version": "1.0.0",
+  "description": "Alexa App for U.S. Bank Visa Hackathon",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "ENVIRONMENT=dev ENABLEPOLLER=1 nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanjwatson/small-business-app.git"
+  },
+  "keywords": [],
+  "author": "Jonathan Watson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanjwatson/small-business-app/issues"
+  },
+  "dependencies": {
+    "alexa-app": "4.2.0",
+    "alexa-app-server": "3.0.1",
+    "alexa-utterances": "0.2.1",
+    "alexa-verifier": "0.4.0",
+    "express": "4.15.2",
+    "lodash": "4.17.4",
+    "nconf": "0.8.4",
+    "nodemon": "1.12.1",
+    "request": "2.81.0",
+    "request-promise": "4.2.1"
+  },
+  "homepage": "https://github.com/jonathanjwatson/small-business-app#readme"
+}
